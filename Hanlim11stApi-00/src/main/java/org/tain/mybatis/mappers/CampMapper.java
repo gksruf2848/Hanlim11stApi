@@ -9,4 +9,5 @@ import org.apache.ibatis.annotations.Mapper;
 public interface CampMapper {
 
 	List<Map<String,Object>> selectAll(Map<String,Object> mapIn);
+	Map<String,Object> insertOne(Map<String,Object> mapIn);
 }
