@@ -29,8 +29,8 @@
 		VALUES
 			(
 				#{id}
-				, #{camp_code}
-				, #{camp_content)
+				, #{campCode}
+				, #{campContent}
 			)
 	</insert>
 
